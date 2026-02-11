@@ -13,7 +13,7 @@ form.addEventListener("submit", async function (e) {
     console.log("Sending data:", data);
 
     try {
-        const response = await fetch("http://localhost:5000/contact", {
+        const response = await fetch("https://project-ij5i.onrender.com/contact", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
